@@ -20,7 +20,7 @@ function getAtkin() {
             let out="";
             document.getElementById("error").innerHTML="";
             let array=JSON.parse(JSON.stringify(response.data));
-            console.log(response);
+            // console.log(response);
             for (let i = 0; i <array.length; i++) {
                 out+='<div class="col-1 border">'+array[i]+'</div>';
             }
