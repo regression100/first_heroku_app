@@ -24,7 +24,7 @@ public class MainRestController {
     public ResponseEntity findPrimesAtkin(@RequestParam(name = "n") int n) throws InterruptedException {
 //        Thread.sleep(1000);
 
-        if (n<1000000000&&n>0)
+        if (n<1000000&&n>0)
         return ResponseEntity.ok(Number_Feature_Engine.isPrimesE(n));
         else return ResponseEntity.badRequest().body("Noto'g'ri son kiritilgan!");
     }
