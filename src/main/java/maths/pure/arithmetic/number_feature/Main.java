@@ -36,20 +36,20 @@ public class Main {
         startTime = System.nanoTime();
         System.out.println();
 //        System.out.println(Number_Feature_Engine.isPrimesSimpleByMethod(100000));
-        System.out.println(Number_Feature_Engine.isPrimesE(50000));
+        System.out.println(Number_Feature_Engine.isPrimesE(500000));
         System.out.printf("isPrimesE: %d ms%n", (System.nanoTime() - startTime) / 1000000);
 
 
         startTime = System.nanoTime();
         System.out.println();
 //        System.out.println(Number_Feature_Engine.isPrimesSimpleByMethod(100000));
-        System.out.println(Number_Feature_Engine.isPrimesSqrt(50000));
+        System.out.println(Number_Feature_Engine.isPrimesSqrt(500000));
         System.out.printf("isPrimesSqrt: %d ms%n", (System.nanoTime() - startTime) / 1000000);
 
         startTime = System.nanoTime();
         System.out.println();
 //        System.out.println(Number_Feature_Engine.isPrimesSimpleByMethod(100000));
-        System.out.println(Number_Feature_Engine.isPrimesFermat(50000));
+        System.out.println(Number_Feature_Engine.isPrimesFermat(500000));
         System.out.printf("isPrimesFermat: %d ms%n", (System.nanoTime() - startTime) / 1000000);
 
 //        startTime = System.nanoTime();
@@ -63,7 +63,7 @@ public class Main {
         startTime = System.nanoTime();
         System.out.println();
 //        System.out.println(Number_Feature_Engine.isPrimesSimpleByMethod(100000));
-        System.out.println(Number_Feature_Engine.SieveOfAtkin(5000));
+        System.out.println(Number_Feature_Engine.SieveOfAtkin(219169));
         System.out.printf("isPrimesAtkin: %d ms%n", (System.nanoTime() - startTime) / 1000000);
 
     }
